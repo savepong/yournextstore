@@ -3,19 +3,19 @@ import ApparelImage from "@/images/apparel.jpg";
 
 export const config = {
 	categories: [
-		{ name: "Apparel", slug: "apparel", image: ApparelImage },
 		{ name: "Accessories", slug: "accessories", image: AccessoriesImage },
+		{ name: "Apparel", slug: "apparel", image: ApparelImage },
 	],
 
 	social: {
-		x: "https://x.com/yourstore",
-		facebook: "https://facebook.com/yourstore",
+		x: "https://x.com/savepong",
+		facebook: "https://facebook.com/savepong.offical",
 	},
 
 	contact: {
-		email: "support@yourstore.com",
-		phone: "+1 (555) 111-4567",
-		address: "123 Store Street, City, Country",
+		email: "pisutakarathada@gmail.com",
+		phone: "+66943589941",
+		address: "119/177 Handmade.in.th Songprapa Rd., Bangkok, Thailand",
 	},
 };
 

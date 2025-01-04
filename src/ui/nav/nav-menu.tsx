@@ -3,18 +3,18 @@ import { NavMobileMenu } from "@/ui/nav/nav-mobile-menu.client";
 import Link from "next/link";
 
 const links = [
-	{
-		label: "Home",
-		href: "/",
-	},
+	// {
+	// 	label: "Home",
+	// 	href: "/",
+	// },
 	...StoreConfig.categories.map(({ name, slug }) => ({
 		label: name,
 		href: `/category/${slug}`,
 	})),
-	{
-		label: "Digital",
-		href: "/category/digital",
-	},
+	// {
+	// 	label: "Digital",
+	// 	href: "/category/digital",
+	// },
 ];
 
 export const NavMenu = () => {

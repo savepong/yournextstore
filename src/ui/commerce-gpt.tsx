@@ -9,7 +9,7 @@ import { ArrowUp, ChevronDown } from "lucide-react";
 import { usePathname } from "next/navigation";
 import { startTransition, useEffect, useRef, useState } from "react";
 import { ProductList } from "./commercegpt/product-list";
-import { YnsLink } from "./yns-link";
+// import { YnsLink } from "./yns-link";
 
 export function CommerceGPT() {
 	const { messages, input, handleInputChange, handleSubmit, append, data } = useChat({});
@@ -63,13 +63,13 @@ export function CommerceGPT() {
 							</Button>
 						</div>
 					</div>
-					<YnsLink
+					{/* <YnsLink
 						className="bg-black rounded-full text-white px-4 py-1 text-sm"
 						href="https://github.com/yournextstore/yournextstore"
 						target="_blank"
 					>
 						View on GitHub
-					</YnsLink>
+					</YnsLink> */}
 				</div>
 			</div>
 			<div
@@ -87,7 +87,7 @@ export function CommerceGPT() {
 										<span className="bg-gradient-to-r from-orange-500 via-red-500 to-red-600 text-transparent bg-clip-text">
 											Commerce GPT
 										</span>{" "}
-										in Your Next Store
+										in Handmade.in.th
 									</h3>
 									<div className="flex flex-wrap justify-center gap-2 w-full">
 										<Button
