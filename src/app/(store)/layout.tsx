@@ -1,6 +1,6 @@
 import "@/app/globals.css";
 import { CartModalProvider } from "@/context/cart-modal";
-import { CommerceGPT } from "@/ui/commerce-gpt";
+// import { CommerceGPT } from "@/ui/commerce-gpt";
 import { Footer } from "@/ui/footer/footer";
 import { JsonLd, accountToWebsiteJsonLd } from "@/ui/json-ld";
 import { Nav } from "@/ui/nav/nav";
